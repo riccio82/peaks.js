@@ -101,9 +101,9 @@ define([
   SegmentShape.prototype._createMarkers = function() {
     var editable = this._layer.isEditingEnabled() && this._segment.editable;
 
-    if (!editable) {
-      return;
-    }
+    // if (!editable) {
+    //   return;
+    // }
 
     var startMarker = this._peaks.options.createSegmentMarker({
       segment:      this._segment,
